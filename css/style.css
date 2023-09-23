@@ -367,6 +367,15 @@ figure figcaption {
   min-height: 500px;
   z-index: 9;
 }
+@media only screen and (max-width: 700px) {
+  #webdevfly-hero .flexslider .slider-text {
+    display: table;
+    opacity: 0;
+    min-height: 700px;
+    z-index: 9;
+  }
+}
+
 #webdevfly-hero .flexslider .slider-text > .slider-text-inner {
   display: table-cell;
   vertical-align: middle;
@@ -528,7 +537,7 @@ body.offcanvas .webdevfly-nav-toggle {
   .webdevfly-about,
   .webdevfly-services,
   .webdevfly-contact {
-    padding-top: 5em;
+    padding-top: 0em;
     padding-bottom: 8em;
   }
 }
@@ -717,3 +726,121 @@ body.offcanvas .webdevfly-nav-toggle {
     visibility: visible;
   }
 }
+
+/* service */
+.services-wrap {
+  display: block;
+  margin-bottom: 40px;
+  z-index: 0;
+}
+.services-wrap .services-img {
+  height: 170px;
+  display: block;
+  z-index: -1;
+}
+.services-wrap .desc {
+  width: 90%;
+  z-index: 1;
+  margin-top: -20px;
+  background: #fafafa;
+  padding: 0.8em 0.5em;
+}
+.services-wrap .desc h3 {
+  font-weight: 500;
+  margin-bottom: 20px;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 14px;
+  letter-spacing: 3px;
+  line-height: 1.5;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+
+.move-bottom {
+  margin-top: 100px;
+}
+@media screen and (max-width: 768px) {
+  .move-bottom {
+    margin-top: 0;
+  }
+}
+
+.webdevfly-feature {
+  text-align: left;
+  width: 100%;
+  float: left;
+  margin-bottom: 40px;
+  position: relative;
+}
+.webdevfly-feature .webdevfly-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 100px;
+  display: table;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.03);
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  border-radius: 2px;
+}
+.webdevfly-feature .webdevfly-icon i {
+  display: table-cell;
+  vertical-align: middle;
+  color: #ffc300;
+  font-size: 60px;
+  height: 100px;
+}
+@media screen and (max-width: 1200px) {
+  .webdevfly-feature .webdevfly-icon i {
+    font-size: 40px;
+  }
+}
+.webdevfly-feature .webdevfly-text {
+  padding-left: 120px;
+  width: 100%;
+}
+.webdevfly-feature .webdevfly-text h2,
+.webdevfly-feature .webdevfly-text h3 {
+  margin: 0;
+  padding: 0;
+}
+.webdevfly-feature .webdevfly-text h3 {
+  font-weight: 500;
+  margin-bottom: 20px;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 14px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+.webdevfly-feature.webdevfly-feature-sm .webdevfly-text {
+  margin-top: 30px;
+}
+.webdevfly-feature.webdevfly-feature-sm .webdevfly-icon i {
+  color: #ffc300;
+  font-size: 40px;
+}
+@media screen and (max-width: 1200px) {
+  .webdevfly-feature.webdevfly-feature-sm .webdevfly-icon i {
+    font-size: 28px;
+  }
+}
+
+.webdevfly-feature-lg .webdevfly-text h2,
+.webdevfly-feature-lg .webdevfly-text h3 {
+  margin: 0;
+  padding: 0;
+}
+
+.webdevfly-feature-lg .webdevfly-text h3 {
+  font-weight: 500;
+  margin-bottom: 20px;
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 14px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+/* service ends */
