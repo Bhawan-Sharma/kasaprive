@@ -66,6 +66,33 @@
           right: 0;
         }
       }
+
+      .onee {
+        background: url(./images/banner.jpg);
+      }
+      @media only screen and (max-width: 599px) {
+        .onee {
+          background: url(./images/Habitat-mpb1.png);
+        }
+      }
+      .twoo {
+        background: url(./images/banner2.jpg);
+      }
+      .about-img {
+        background: url(./images/abouttt.png);
+        background-size: cover;
+        height: 500px;
+      }
+      @media only screen and (max-width: 599px) {
+        .twoo {
+          background: url(./images/bannermobile2.jpg);
+        }
+        .about-img {
+          background: url(./images/abouttt.png);
+          height: 300px;
+          background-size: cover;
+        }
+      }
     </style>
   </head>
   <body>
@@ -122,7 +149,7 @@
         <aside id="webdevfly-hero" class="js-fullheight">
           <div class="flexslider js-fullheight">
             <ul class="slides">
-              <li style="background-image: url(images/banner.jpg)">
+              <li class="onee">
                 <div class="overlay"></div>
                 <div class="container-fluid">
                   <div class="row">
@@ -149,7 +176,7 @@
                   </div>
                 </div>
               </li>
-              <li style="background-image: url(images/banner2.jpg)">
+              <li class="twoo">
                 <div class="overlay"></div>
                 <div class="container-fluid">
                   <div class="row">
@@ -215,7 +242,6 @@
                 <div
                   class="about-img animate-box"
                   data-animate-effect="fadeInLeft"
-                  style="background-image: url(images/about.jpg)"
                 ></div>
               </div>
               <div
