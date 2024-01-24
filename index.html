@@ -93,6 +93,29 @@
           background-size: cover;
         }
       }
+
+      @media only screen and (max-width: 599px) {
+        .aboutwhy {
+          display: flex;
+          flex-direction: column-reverse;
+        }
+        aside#webdevfly-hero {
+          padding-top: 82px;
+          background: #2c2c2c;
+        }
+        .webdevfly-nav-toggle i::before,
+        .webdevfly-nav-toggle i::after {
+          content: "";
+          width: 30px;
+          height: 2px;
+          background: #ffffff;
+          position: absolute;
+          left: 0;
+          -webkit-transition: 0.2s;
+          -o-transition: 0.2s;
+          transition: 0.2s;
+        }
+      }
     </style>
   </head>
   <body>
@@ -237,7 +260,7 @@
         <!-- about section starts here  -->
         <div class="webdevfly-about">
           <div class="webdevfly-narrow-content">
-            <div class="row">
+            <div class="row aboutwhy">
               <div class="col-md-6">
                 <div
                   class="about-img animate-box"
