@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>HABITAT</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+
+    <!-- Facebook and Twitter integration -->
+    <meta property="og:title" content="" />
+    <meta property="og:image" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:site_name" content="" />
+    <meta property="og:description" content="" />
+    <meta name="twitter:title" content="" />
+    <meta name="twitter:image" content="" />
+    <meta name="twitter:url" content="" />
+    <meta name="twitter:card" content="" />
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <link rel="shortcut icon" href="favicon.ico" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700"
+      rel="stylesheet"
+    />
+
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="css/animate.css" />
+    <!-- Icomoon Icon Fonts-->
+    <link rel="stylesheet" href="css/icomoon.css" />
+    <!-- Bootstrap  -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <!-- Flexslider  -->
+    <link rel="stylesheet" href="css/flexslider.css" />
+    <!-- Flaticons  -->
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css" />
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+    <!-- Theme style  -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Modernizr JS -->
+    <script src="js/modernizr-2.6.2.min.js"></script>
+    <!-- FOR IE9 below -->
+    <!--[if lt IE 9]>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+
+    <style>
+      @media only screen and (max-width: 599px) {
+        .webdevfly-nav-toggle i::before,
+        .webdevfly-nav-toggle i::after {
+          background: black !important;
+        }
+        #webdevfly-main {
+          margin-top: 80px;
+        }
+      }
+      @media only screen and (min-width: 600px) {
+        .hiddenfordesk {
+          display: none;
+        }
+      }
+      @media only screen and (max-width: 599px) {
+        .hiddenfordesk img {
+          padding: 8px 14px 12px 8px;
+          position: absolute;
+          top: 0;
+          z-index: 9;
+          right: 0;
+        }
+      }
+
+      .onee {
+        background: url(./images/desktopbanner2.jpg);
+      }
+      @media only screen and (max-width: 599px) {
+        .onee {
+          background: url(./images/12.jpg);
+        }
+      }
+      .twoo {
+        background: url(./images/banner.jpg);
+      }
+      .about-img {
+        background: url(./images/abouttt.png);
+        background-size: cover;
+        height: 500px;
+      }
+      @media only screen and (max-width: 599px) {
+        .twoo {
+          background: url(./images/bannermobile2.jpg);
+        }
+        .about-img {
+          background: url(./images/abouttt.png);
+          height: 300px;
+          background-size: cover;
+        }
+      }
+
+      @media only screen and (max-width: 599px) {
+        .aboutwhy {
+          display: flex;
+          flex-direction: column-reverse;
+        }
+        aside#webdevfly-hero {
+          padding-top: 82px;
+          background: #2c2c2c;
+        }
+        .webdevfly-nav-toggle i::before,
+        .webdevfly-nav-toggle i::after {
+          content: "";
+          width: 30px;
+          height: 2px;
+          background: #ffffff;
+          position: absolute;
+          left: 0;
+          -webkit-transition: 0.2s;
+          -o-transition: 0.2s;
+          transition: 0.2s;
+        }
+      }
+      .webdevfly-feature .webdevfly-icon {
+        background: white !important;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="webdevfly-page">
+      <a href="#" class="js-webdevfly-nav-toggle webdevfly-nav-toggle"
+        ><i></i
+      ></a>
+      <a class="hiddenfordesk"
+        ><img src="./images/Kasa Prive Logo.png" style="width: 90px"
+      /></a>
+
+      <!-- side bar starts here desktop menu bar -->
+      <aside
+        id="webdevfly-aside"
+        role="complementary"
+        class="border js-fullheight"
+      >
+        <h1 id="webdevfly-logo">
+          <a href="index.html"
+            ><img src="./images/Kasa Prive Logo.png" style="width: 100px"
+          /></a>
+        </h1>
+        <nav id="webdevfly-main-menu" role="navigation">
+          <ul>
+            <li class="webdevfly-active"><a href="index.html">Home</a></li>
+
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#Collection">Collection</a></li>
+            <li><a href="index.html#gallery">Gallery</a></li>
+            <li><a href="index.html#get-in-touch">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="webdevfly-footer">
+          <ul>
+            <li>
+              <a href="https://www.instagram.com/kasapriveofficial/"
+                >Follow us on<i
+                  style="margin-left: 10px"
+                  class="icon-instagram"
+                ></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+      <!-- side bar ends here desktop menu bar -->
+      <div id="webdevfly-main">
+        <!-- work section starts -->
+        <div class="webdevfly-work" id="gallery">
+          <div class="webdevfly-narrow-content">
+            <div class="row">
+              <div
+                class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
+                data-animate-effect="fadeInLeft"
+              >
+                <span class="heading-meta">Latest Designs</span>
+                <h2 class="webdevfly-heading animate-box">HABITAT</h2>
+              </div>
+            </div>
+            <div class="row">
+              <div
+                class="col-md-3 animate-box"
+                data-animate-effect="fadeInLeft"
+              >
+                <div
+                  class="project"
+                  style="background-image: url(images/gallery4.jpg)"
+                >
+                  <div class="desc">
+                    <div class="con">
+                      <h3><a href="work.html"> 01</a></h3>
+                      <span>Kasaprive</span>
+                      <p class="icon">
+                        <span
+                          ><a
+                            href="https://www.instagram.com/kasapriveofficial/"
+                            ><i class="icon-instagram"></i></a
+                        ></span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-md-3 animate-box"
+                data-animate-effect="fadeInLeft"
+              >
+                <div
+                  class="project"
+                  style="background-image: url(images/gallery5.jpg)"
+                >
+                  <div class="desc">
+                    <div class="con">
+                      <h3><a href="#">02</a></h3>
+                      <span>Kasaprive</span>
+                      <p class="icon">
+                        <span
+                          ><a
+                            href="https://www.instagram.com/kasapriveofficial/"
+                            ><i class="icon-instagram"></i></a
+                        ></span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-md-3 animate-box"
+                data-animate-effect="fadeInLeft"
+              >
+                <div
+                  class="project"
+                  style="background-image: url(images/gallery8.jpg)"
+                >
+                  <div class="desc">
+                    <div class="con">
+                      <h3><a href="#">03</a></h3>
+                      <span>Kasaprive</span>
+                      <p class="icon">
+                        <span
+                          ><a
+                            href="https://www.instagram.com/kasapriveofficial/"
+                            ><i class="icon-instagram"></i></a
+                        ></span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-md-3 animate-box"
+                data-animate-effect="fadeInLeft"
+              >
+                <div
+                  class="project"
+                  style="background-image: url(images/gallery9.jpg)"
+                >
+                  <div class="desc">
+                    <div class="con">
+                      <h3><a href="#">04</a></h3>
+                      <span>Kasaprive</span>
+                      <p class="icon">
+                        <span
+                          ><a
+                            href="https://www.instagram.com/kasapriveofficial/"
+                            ><i class="icon-instagram"></i></a
+                        ></span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-md-3 animate-box"
+                data-animate-effect="fadeInLeft"
+              >
+                <div
+                  class="project"
+                  style="background-image: url(images/32.jpg)"
+                >
+                  <div class="desc">
+                    <div class="con">
+                      <h3><a href="#">05</a></h3>
+                      <span>Kasaprive</span>
+                      <p class="icon">
+                        <span
+                          ><a
+                            href="https://www.instagram.com/kasapriveofficial/"
+                            ><i class="icon-instagram"></i></a
+                        ></span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- <div
+                class="col-md-3 animate-box"
+                data-animate-effect="fadeInLeft"
+              >
+                <div
+                  class="project"
+                  style="background-image: url(images/gallery7.jpg)"
+                >
+                  <div class="desc">
+                    <div class="con">
+                      <h3><a href="#">06</a></h3>
+                      <span>Kasaprive</span>
+                      <p class="icon">
+                        <span
+                          ><a
+                            href="https://www.instagram.com/kasapriveofficial/"
+                            ><i class="icon-instagram"></i></a
+                        ></span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-md-3 animate-box"
+                data-animate-effect="fadeInLeft"
+              >
+                <div
+                  class="project"
+                  style="background-image: url(images/gallery3.jpg)"
+                >
+                  <div class="desc">
+                    <div class="con">
+                      <h3><a href="#">07</a></h3>
+                      <span>Kasaprive</span>
+                      <p class="icon">
+                        <span
+                          ><a
+                            href="https://www.instagram.com/kasapriveofficial/"
+                            ><i class="icon-instagram"></i></a
+                        ></span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div> -->
+              <!-- <div
+                class="col-md-3 animate-box"
+                data-animate-effect="fadeInLeft"
+              >
+                <div
+                  class="project"
+                  style="background-image: url(images/gallery9.jpg)"
+                >
+                  <div class="desc">
+                    <div class="con">
+                      <h3><a href="#">08</a></h3>
+                      <span>Kasaprive</span>
+                      <p class="icon">
+                        <span
+                          ><a
+                            href="https://www.instagram.com/kasapriveofficial/"
+                            ><i class="icon-instagram"></i></a
+                        ></span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div> -->
+            </div>
+          </div>
+        </div>
+        <!-- work section ends -->
+      </div>
+    </div>
+    <!-- jQuery -->
+    <script src="js/jquery.min.js"></script>
+    <!-- jQuery Easing -->
+    <script src="js/jquery.easing.1.3.js"></script>
+    <!-- Bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Waypoints -->
+    <script src="js/jquery.waypoints.min.js"></script>
+    <!-- Flexslider -->
+    <script src="js/jquery.flexslider-min.js"></script>
+    <!-- Sticky Kit -->
+    <script src="js/sticky-kit.min.js"></script>
+    <!-- Owl carousel -->
+    <script src="js/owl.carousel.min.js"></script>
+    <!-- Counters -->
+    <script src="js/jquery.countTo.js"></script>
+
+    <!-- MAIN JS -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
