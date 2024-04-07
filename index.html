@@ -56,6 +56,13 @@
         .hiddenfordesk {
           display: none;
         }
+        .he {
+          margin-bottom: 10px !important;
+        }
+
+        .fond-image {
+          width: 48%;
+        }
       }
       @media only screen and (max-width: 599px) {
         .hiddenfordesk img {
@@ -81,7 +88,7 @@
       .about-img {
         background: url(./images/abouttt.png);
         background-size: cover;
-        height: 500px;
+        height: 640px;
       }
       @media only screen and (max-width: 599px) {
         .twoo {
@@ -114,6 +121,10 @@
           -webkit-transition: 0.2s;
           -o-transition: 0.2s;
           transition: 0.2s;
+        }
+
+        .fond-image {
+          width: 100%;
         }
       }
       .webdevfly-feature .webdevfly-icon {
@@ -272,7 +283,7 @@
               >
                 <div class="about-desc" id="about">
                   <span class="heading-meta">About</span>
-                  <h2 class="webdevfly-heading">Who we are</h2>
+                  <h2 class="webdevfly-heading he">Who we are</h2>
                   <p>
                     Welcome to Kasa Prive, where we specialize in transforming
                     kids' spaces into enchanting realms, one wall at a time!
@@ -286,6 +297,17 @@
                     your little ones smile and giggle with delight. 🥰 Discover
                     the joy of creating a space where imagination knows no
                     bounds with Kasa Prive.
+                  </p>
+                  <h4 style="margin-bottom: 10px">Why the Name?</h4>
+                  <p>
+                    <b>Kasa:</b> derived from the Spanish word ‘casa” which
+                    means home, it’s always about making warm fuzzies and snug
+                    corners for the tiny humans of the family.
+                  </p>
+                  <p>
+                    <b>Prive:</b> French for private, reflects our commitment to
+                    creating exclusive, magical spaces where your child's dreams
+                    and adventures can flourish in utmost comfort.
                   </p>
                 </div>
                 <!-- <div class="row padding">
@@ -328,6 +350,20 @@
           </div>
         </div>
         <!-- about section ends here -->
+
+        <!-- our founders -->
+        <div
+          class="our-founders webdevfly-narrow-content"
+          style="margin-bottom: 40px"
+        >
+          <span class="heading-meta"></span>
+          <h2 class="webdevfly-heading">Meet the founders</h2>
+          <div style="display: flex; flex-wrap: wrap; gap: 2%">
+            <img class="fond-image" src="./images/onefinal.jpeg" />
+
+            <img class="fond-image" src="./images/2ndfinal.jpeg" />
+          </div>
+        </div>
 
         <!-- service section starts here -->
         <div class="webdevfly-services">
